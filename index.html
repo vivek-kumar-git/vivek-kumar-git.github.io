@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @font-face {
+      font-family: "magoaDemo";
+      src: url(fonts/MagoaDemo.otf);
+    }
+  *{
+    font-family:MagoaDemo, sans-serif;
+
+  }
+    
+
+
+  
+    sub{font-size: small;
+
+    }
+    .ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.li {
+  float: left;
+}
+
+.li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+body{
+  background-color: #111;
+}
+.intro{
+background-image:url("glen-carrie-iB1JuJyQob4-unsplash.jpg");
+border: solid black 1px ;
+opacity: 0.8;
+background-size: cover;
+height: 500px;
+width: 1500px;
+font-size: larger;
+transition: 0.1s;
+color: #ffffff;
+border-radius: 20px;
+  
+}
+.intro:hover{
+background-image:url("glen-carrie-iB1JuJyQob4-unsplash.jpg");
+border: solid black 1px ;
+opacity: 1;
+background-size: cover;
+height: 609px;
+width: 1508px;
+transition: 0.1s;
+color: white;
+font-size:x-large;
+border-radius: 20px;
+  
+}
+.hintro{
+  /* color: white; */
+  text-decoration: underline;
+  text-align: center;
+}
+.pintro{
+  /* color: #111; */
+  transition: 0.1s;
+}
+.pintro:hover{
+  /* color: green; */
+  transition: 0.1s;
+}
+.obj{
+background-image:url("chris-yang-zpG3x9pXS_8-unsplash.jpg");
+border: solid black 1px ;
+opacity: 0.8;
+background-size: cover;
+height: 500px;
+width: 1500px;
+transition: 0.1s;
+color: #ffffff;
+border-radius: 20px;
+font-size: larger;
+}
+.obj:hover{
+  background-image:url("chris-yang-zpG3x9pXS_8-unsplash.jpg");
+border: solid black 1px ;
+opacity: 1;
+background-size: cover;
+height: 650px;
+width: 1508px;
+transition: 0.1s;
+color: white;
+font-size:x-large;
+border-radius: 20px;
+}
+.heading{
+  text-align: center;
+  font-size: xx-large;
+  color: #d5d5d5;
+}
+li a{
+  color: white;
+}
+.deve{
+  background-image: url("randy-fath-MSeS-X3Av2E-unsplash.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  opacity: 0.8;
+height:800px;
+width: 1500px;
+transition: 0.1s;
+color: #ffffff;
+border-radius: 20px;
+
+}
+.deve:hover{
+  border: solid black 1px ;
+opacity: 1;
+background-size: cover;
+height: 800px;
+width: 1508px;
+transition: 0.1s;
+color: white;
+font-size:x-large;
+border-radius: 20px;
+}
+.new_rule{
+  /* font-size: x-large; */
+  text-decoration: underline;
+  padding:2%;
+  color: white;
+}
+.new_rule:hover{
+  font-size: xx-large;
+  text-decoration: underline;
+  padding:2%;
+  color: white;
+}
+.deve_pn{
+  padding: 5px;
+  color: white;
+  transition: 0.1s;
+  font-size: xx-large;
+}
+.deve_pn:hover{
+  padding: 5px;
+  color: white;
+  font-size: xx-large;
+  transition: 0.1s;
+}
+.ta{
+
+  width: 69%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  background-color: #494848;
+  font-size: 16px;
+  resize: none;
+  
+  
+
+}
+.ta:hover{
+
+width: 69%;
+height: 150px;
+padding: 12px 20px;
+box-sizing: border-box;
+border: 2px solid #000000;
+border-radius: 20px;
+background-color: #494848;
+font-size: 16px;
+resize: none;
+box-shadow:0px 0px 15px rgb(112, 111, 111);
+
+
+
+}
+.tech_{
+  color: #333;
+  font-size: xx-large;
+}
+.sub{
+  border-radius: 20px;
+  color: white;
+  background-color: #494848;
+  font-size: larger;
+}
+.sub:hover{
+  border-radius: 20px;
+  color: white;
+  background-color: #494848;
+  font-size: larger;
+  box-shadow:0px 0px 15px rgb(112, 111, 111);
+  border: solid white 1px;
+
+}
+.quote{
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  padding: 10%;
+}
+.extend{
+  color: white;
+  font-size: x-large;
+  transition: 0.2s;
+  opacity: 0.8;
+  background-image: url("xiaocong-yan-q8vYjpFFZvI-unsplash.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  padding: 2%;
+  opacity: 0.8;
+}
+.extend:hover{
+  color:white;
+  font-size: xx-large;
+  transition: 0.2s;
+  opacity: 1;
+  border: solid white 1px;
+
+}
+#p{
+  font-size: small;
+  transition: 0.3s;
+  
+}
+#p:hover{
+  font-size: large;
+  transition: 0.3s;
+  
+}
+.aware{
+  background-image: url("onehundredseventyfive-VaGU4lyb0gg-unsplash.jpg");
+  background-size: cover;
+  color: white;
+  padding: 2%;
+  font-size: x-large;
+  transition: 0.2s;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.aware:hover{
+  background-image: url("onehundredseventyfive-VaGU4lyb0gg-unsplash.jpg");
+  background-size: cover;
+  color: white;
+  padding: 2%;
+  font-size: x-large;
+  transition: 0.2s;
+  border-radius: 20px;
+  opacity: 1;
+}
+.analysis{
+  background-image: url("clay-banks-EdscD_R28bM-unsplash.jpg");
+  background-size: cover;
+  color: white;
+  padding: 2%;
+  font-size: larger;
+  transition: 0.2s;
+  border-radius: 20px;
+  opacity: 0.8;
+
+}
+.analysis:hover{
+  background-image: url("clay-banks-EdscD_R28bM-unsplash.jpg");
+  background-size: cover;
+  color: white;
+  padding: 2%;
+  font-size: x-large;
+  transition: 0.2s;
+  border-radius: 20px;
+  opacity: 1;
+
+
+}
+
+
+</style>
+<script>
+  alert("this webpage is the conceptual.")
+</script>
+<body>
+    <div class="heading"><h1>S<sub>Soul </sub>O<sub>Of </sub>S<sub>Sol</sub> </h1></div>
+    <!-- <div class="navigation"> -->
+        <ul class="ul">
+            <li class="li"><a href="#">Home</a></li>
+            <li class="li"><a href="/news.html">More</a></li>
+            <li class="li"><a href="/member.html">Member</a></li>
+            <li class="li"><a href="/about.html">About Us</a></li>
+          </ul>
+          <br><br>
+    <!-- </div> -->
+    <div class="intro">
+      <span class="hintro"><h1>INTRODUCTION</h1></span>
+        <div class="pintro">
+          <p>soil pollution is defined as the presences of toxic chemicals
+            (pollutants or contaminents ) in soil. In high enough concentration to pose a risk to human health and for ecosystem. In this case of contaminents which occurs naturally in soil, even when their levels are not high enough to pose a risk. soil pollution is still said to occur if the level of the contaminents in soil exceed the level that should naturally be present.<br><br>
+
+            soil contamination, soil pollution or land pollution as a part of land degredation is caused by the presence of Xenobiolic (human-made) chemicals or other alternation in the natural soil enviroment. It is typically caused by industrial activities, agricultural chemical or improper disposal of waste. The most common chemicals involved. are petroleum, hydrocarbons, polynuclear aromatic hydrocarbons(such as naphthalene and benzo(a)pyrene), solvents, pesticides, lead and other heavy metals. contamination is correlates with the degree of industrialization and intensity of chemical substances.<br><br>
+
+            the concern over soil contamination stemps primarly from health risks, from direct contact with the contaminented soil, vapur from the contaminats, or from secondary contamination of water supplies within and underlying soil, mappiry of contaminated soil sites. and resulting cleanups are time-consuming and expensive task, required entensive amount of everything.
+
+          </p>
+        </div>
+      </div>
+      <br>
+  <div class="obj">
+    <span class="h-obj"><h1><u>OBJECTIVES</u></h1></span>
+    <div class="pobj">
+      we have many motives behind implementing the project because there is a <span class="pp">PURPOSE</span> behind every project. <br><br>
+      <div class="objp">
+        <span class="objpp">Our purpose behind composing this project.</span>
+         <div class="points">
+          <ul class="point">
+            <li><a href="#develop"> Develops new Rules and Techniques.</a></li><br>
+            <li><a href="#extend">Extend knowledge human Begins.</a></li><br>
+            <li><a href="">Create awareness among the people.</a></li><br>
+            <li><a href="#ana">Analyse an event, process and pnenomena.</a></li><br>
+            <li><a href="">Plan for future benifits.</a></li>
+          </ul>
+         </div>
+      </div>
+    </div>
+    </div><br>
+    <div class="deve" id="develop">
+      <span class="new_rules"><center><h1><u>DEVELOP NEW RULES AND TECHNIQUES</u></h1></center></span>
+      <div class="deve_img"></div>
+        <div class="deve_p">
+          <ul class="deve_pn">
+            <li>Eat sustainable foodstuffs, properly recycle batteries, produce homemade compost and dispose of drugs in the places authorised for this purpose.</li><br>
+            <li>Encourage a more eco-friendly model for industry, farming and stock breeding, among other economic activities</li><br>
+            <li>Improve the management of mining waste, restore the landscape and conserve topsoil.</li><br>
+            <li>Involve local communities and indigenous peoples in the design, implementation and assessment of sustainable land and soil management.</li>
+          </ul>
+          <div class="tech">
+            <span class="tech_"><center></span><b>Did you have something to share or Contribute?</b></span></center> <br>
+            <center><textarea name="" class="ta" cols="100" rows="1">share with us..</textarea></center> 
+            <div class="submit">
+              <center><button class="sub">thank you.</button></center>
+            </div>
+          </div> 
+      </div>
+    </div><br>
+    <div class="quote">"Considering that just one teaspoon of soil can hold more organisms than there are people on the whole planet, we think that our soils are well worth protecting!"</div>
+    <div class="extend" id="extend">
+      <span class="extented"><center><h1><u>Extend Knowledge human Begins.</u></h1></center></span>
+        <div class="imge"></div>
+          <div class="exten_para">
+            <ul>
+              <li>Grow your own:<br><p id="p">In your own back garden, on a windowsill or on a shared allotment, growing your own is the most environmentally-friendly way to get your food.
+
+                Growing different vegetables and plants in your garden will help recycle nutrients back into the soil, with the added benefit of reconnecting you with where food comes from.
+                
+                Remember: Leaving soil bare is not good for its health; rain can wash away soil nutrients—and even the soil itself, so make sure you keep it covered, with plants, edible crops and cover crops.  
+                </p></li><br>
+              <li>Compost<br><p id="p">Organic matter is the parts of soil that originate from plants or animals. It's an essential ingredient in healthy soils, helping it hold onto nutrients and water. In  agroecological ways of farming, like organic, farmers use around 65% more manure and compost! As a result, soil organic matter is higher on organic farms.
+
+                An easy way to boost soil organic matter is to apply compost - this will ‘feed’ your soil with a diversity of nutrients and microorganisms.</p></li><br>
+              <li>Grow soil saving plants<br><p id="p">Another way of saving soil at home is to plant flowers and plants that are beneficial to soil health. There are plenty of species you can plant in your garden or shared outdoor space that will be beneficial to your soil.
+
+                Plants that pull nitrogen from the air help increase the fertility of your soils, while deep-rooting plants stop compaction, promote healthy soil structure, and draw up nutrients deeper in the soil for use by other plants.</p></li><br>
+              <li>Support soil-friendly agroecological farming<br><p id="p">The way we eat and farm can make a world of difference for our soils. Opting to support agroecological farming, like organic, in your local area means casting a vote for a way of is based on nourishing plants by building soil fertility naturally.</p></li><br>
+              <li>Speak out for soil<br><p id="p">Raising awareness about the issue of soil degradation is a really important; let's keep growing this movement from the ground up! Share this information with friends and family, and help them to start saving their own soils at home too.
+
+                Together, we can use our power as citizens to influence the Government to acknowledge the vital role of soils and commit to prioritising soil health.</p></li>
+            </ul>
+            
+          </div>
+
+    </div>  <br>
+    <div class="aware">
+      <span class="awares"><h1><u><center>Create awareness among the people.</center></u></h1></span>
+        <div class="imga"></div>
+          <div class="awarep">
+            <p>
+              <ul>
+                <li>Get a better understanding of the soil environment quality baseline.<br><p>Poor utilization of land is a major concern in the prevention and control of soil pollution. Agricultural land pollution usually causes the loss of soil fertility as it involves the loss of organic matter, topsoil and nutrients, and the soil’s ability to retain water. In agricultural land management, ideal soil conservation methods include mechanical and biological control techniques.
+
+                  The biological method refers to forestry and crop-related soil management. The crop related control measures include crop rotation, strip cropping, planting along the contours, protector belt, crop residues, and use of organic composts. Forests also play an important role in preventing soil erosion.
+                  
+                  Developing forests in new areas can help reduce erosion caused by rainwater and air thus ensuring increased soil fertility and formation. In areas with excessive pollution or surface degradation, reforestation should be done. The mechanical method of soil pollution control includes the use of contour holding system, gully control, and making bunds. In excessive sloping areas, making bunds across the slope helps to prevent erosion.</p></li>
+                <li>Develop necessary legislation on soil pollution control<br><p>It is important to dispose of solid waste properly by treated it before it’s released into the environment. Acidic and alkaline waste, for example, can be neutralized before they are disposed of to avoid soil contamination. Biodegradable waste should also be broken down in a controlled environment before it is released into the environment. A great example is the proper treatment of sewage sludge.
+
+                  The waste materials should also be categorized based on the degree of contamination. Materials that are mildly or moderately contaminated should be treated in controlled environments before release into the natural environments while those that are heavily contaminated should be put under strict management, treatment, and control</p></li>
+                <li>Proper management of agricultural land and the practice of organic farming<br><p>Poor utilization of land is a major concern in the prevention and control of soil pollution. Agricultural land pollution usually causes the loss of soil fertility as it involves the loss of organic matter, topsoil and nutrients, and the soil’s ability to retain water. In agricultural land management, ideal soil conservation methods include mechanical and biological control techniques.
+
+                  The biological method refers to forestry and crop-related soil management. The crop related control measures include crop rotation, strip cropping, planting along the contours, protector belt, crop residues, and use of organic composts. Forests also play an important role in preventing soil erosion.
+                  
+                  Developing forests in new areas can help reduce erosion caused by rainwater and air thus ensuring increased soil fertility and formation. In areas with excessive pollution or surface degradation, reforestation should be done. The mechanical method of soil pollution control includes the use of contour holding system, gully control, and making bunds. In excessive sloping areas, making bunds across the slope helps to prevent erosion.</p></li>
+                <li>Proper Solid Waste Treatment<br><p>It is important to dispose of solid waste properly by treated it before it’s released into the environment. Acidic and alkaline waste, for example, can be neutralized before they are disposed of to avoid soil contamination. Biodegradable waste should also be broken down in a controlled environment before it is released into the environment. A great example is the proper treatment of sewage sludge.
+
+                  The waste materials should also be categorized based on the degree of contamination. Materials that are mildly or moderately contaminated should be treated in controlled environments before release into the natural environments while those that are heavily contaminated should be put under strict management, treatment, and control.</p></li>
+                <li> Ensure proper investigation of reclaimed land<br><p>When dealing with land that is expected to be reclaimed and used for other purposes such as the construction of residential homes or social amenities like schools as it is in the case of mining, there is need to conduct soil investigation and evaluation. The mandate of testing the contamination levels of such lands should be given to the city or government unit in charge.
+
+                  The results from the test should then be used in establishing practical management and control measures depending on the purpose of the land. If the results show the reclaimed land is polluted, any scheduled activity on the land must be suspended and the responsible body must take the necessary precautions to not only manage and mitigate the risks but to also prevent the contamination of adjacent soils.</p></li>
+              </ul>
+            </p>
+          </div>
+    </div>
+    <br>
+    <div class="analysis" id="ana">
+      <span class="headana"><center><u><h1>Analyse an event, process and pnenomena</h1></u></center></span>
+        <div class="imgana"></div>
+          <div class="paraana">
+            The consumption of petroleum oil and lubricants (POL) in field missions is
+            equipment to support peacekeeping operations. Through these processes, which
+            have a major environmental footprint, the potential of soil contamination arises.
+            This section presents a case study of remediation work conducted by Global Service
+            Centre/Environmental Technical Support Unit on POL polluted sites during the
+            liquidation of a United Nations field operation in Côte d’Ivoire (ONUCI).
+            <br><br>
+            The goal of the project was to reduce the level of total petroleum hydrocarbon
+            (TPH) in polluted soil (36 000 to 75 000 mg/kg) to a background TPH level of 400
+            to 1 000 mg/kg, providing an enabling environment for revegetation of plants. The
+            project entailed the removal of over 1 200 tonnes of POL contaminated soil from
+            sites and replacing it with fresh soil. <br><br> The excavated contaminated soil was treated
+            using naturally occurring materials derived locally
+            inevitable due to their use in generating electricity and operating mechanical.
+            
+            aerate in order to promote microbial growth and the breaking down of POL.
+            Two ingredients (poultry waste and naturally occurring surface active materials
+            (NOSAM) or palm ash soap (also known as black soap)) were added to the mix to
+            improve the condition of the soil and to accelerate the microbial remediation.
+            The result showed a reduction of over 95 percent in TPH levels immediately after
+            remediation, with natural microbial activities ensuring more reduction in TPH
+            within a 14-day period. Native grasses were planted in the restored areas. The case
+            study highlights the importance of implementing low cost remediation techniques
+            in mitigating POL polluted sites within the UN field missions.
+          </div>
+    </div>
+
+
+
+  <!-- </div> -->
+</body>
+</html>

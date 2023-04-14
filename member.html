@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  
+  @font-face {
+    font-family: "magoaDemo";
+    src: url(fonts/MagoaDemo.otf);
+  }
+*{
+  font-family:MagoaDemo, sans-serif;
+
+}
+ul {
+
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #8383832d;
+list-style-type: none;
+}
+
+li {
+float: left;
+text-align: center;
+margin-left: 100px;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.heading{
+  text-align: center;
+  font-size: xx-large;
+  color: #d5d5d5;
+}
+sub{
+    font-size: small;
+}
+    body{
+        background-image: url("xiaocong-yan-q8vYjpFFZvI-unsplash.jpg");
+        background-size: cover;
+    }
+    .form{
+        border: solid rgb(99, 99, 99) 3px;
+        border-radius: 20px;
+        text-align: center;
+        padding: 52px;
+        height: 140px;
+        width: 200px;
+        margin-top: 10%;
+        color: white;
+        font-size: x-large;
+        transition: 0.2s;
+    }
+    .form:hover{
+        border: solid rgb(99, 99, 99) 3px;
+        border-radius: 20px;
+        text-align: center;
+        padding: 52px;
+        height: 150px;
+        width: 200px;
+        margin-top: 10%;
+        color: white;
+        font-size: x-large;
+        transition: 0.2s;
+        box-shadow:0px 0px 15px white;
+    }
+    .newuser{
+        color: white;
+    }
+    .mem{
+        color: white;
+        text-decoration: underline;
+        font-size: 60px;
+        
+    }
+    #input{
+        border-radius: 20px;
+        padding: 3%;
+        transition: 0.2s;
+    }
+    #input:hover{
+        border-radius: 20px;
+        padding: 3%;
+        box-shadow: 0px 0px 12px grey;
+        transition: 0.2s;
+        
+    }
+
+    ul {
+
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        list-style-type: none;
+    }
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+background-color: #111;
+}
+</style>
+<script>
+    alert("this sign-in page is just a overview, it will come to action once uploaded to server.")
+</script>
+<body>
+    <div class="heading"><h1>S<sub>Soul </sub>O<sub>Of </sub>S<sub>Sol</sub> </h1></div>
+    <ul class="ul">
+        <li class="li"><a href="/index.html">Home</a></li>
+        <li class="li"><a href="/news.html">More</a></li>
+        <li class="li"><a href="/member.html">Member</a></li>
+        <li class="li"><a href="/about.html">About Us</a></li>
+      </ul>
+      <br><br>
+    <center>
+        <span class="mem">BECOME OUR MEMBER</span>
+    <div class="form">
+        <form action="">
+            <label for="User">User Name</label><br>
+            <input type="text" id="input">
+            <br><br>
+            <label for="Password">Password</label><br>
+            <input type="password" id="input"><br><br>
+            <!-- <label for="submit">submit</label>    -->
+            
+            <button id="input">Sign In</button>
+        </form>
+    </div>
+    <br>
+    <span class="newuser">New user?</span>
+
+</center>
+</body>
+</html>
